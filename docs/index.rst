@@ -15,5 +15,5 @@ Contents
 .. toctree::
 
    Home <self>
-   PDK
-   CAD
+   pdk
+   cad
