@@ -14,8 +14,6 @@ Contents
 
 .. toctree::
 
-   :maxdepth: 2
-   :caption: Contents:
    Home <self>
    PDK
    CAD
