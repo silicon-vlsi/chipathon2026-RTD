@@ -13,11 +13,11 @@ Contents
 .. toctree::
 
    Home <self>
-   start
+   getStarted
    pdk
    cad
 
 
 .. note::
 
-   You can check the ``README <../RTD-README.rst>`` and the ``Tutorial <https://docs.readthedocs.io/en/stable/tutorial/`` to learn more about Read the Docs Documentation.
+   You can check the :doc:`README <../RTD-README.rst>` and the `Tutorial <https://docs.readthedocs.io/en/stable/tutorial/`_ to learn more about Read the Docs Documentation.
