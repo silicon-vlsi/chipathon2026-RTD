@@ -1,5 +1,5 @@
 EDA Tools
-===
+===========
 
 .. autosummary::
    :toctree: generated
