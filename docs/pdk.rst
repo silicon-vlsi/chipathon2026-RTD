@@ -6,7 +6,3 @@ GF180MCU PDK
 
    Global Foundry GF180MCU
 
-PDK Summary
----
-
-
