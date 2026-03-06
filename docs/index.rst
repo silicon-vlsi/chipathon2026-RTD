@@ -1,9 +1,7 @@
 .. include:: ../README.rst
 
-SSCS Chipathon 2026
-========================================
 
-This is the documentation for the Chipathon 2026 project.
+.. This is the documentation for the Chipathon 2026 project.
 
 .. note::
 
@@ -15,5 +13,11 @@ Contents
 .. toctree::
 
    Home <self>
+   start
    pdk
    cad
+
+
+.. note::
+
+   You can check the ``README <../RTD-README.rst>`` and the ``Tutorial <https://docs.readthedocs.io/en/stable/tutorial/`` to learn more about Read the Docs Documentation.
