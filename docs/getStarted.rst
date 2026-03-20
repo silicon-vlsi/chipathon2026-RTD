@@ -1,8 +1,7 @@
 Getting Started
 ==================
 
-.. autosummary::
-   :toctree: generated
-
+.. toctree::
+   :maxdepth: 2 
     
    glayout-GetStarted-DockerSetup
