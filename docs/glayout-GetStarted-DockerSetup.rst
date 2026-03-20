@@ -124,15 +124,13 @@ using. Please follow the specific instructions for your platform:
          Mac <https://docs.docker.com/desktop/setup/install/mac-install>`__
 
 .. image:: media/image3.png
-   :width: 3.25in
-   :height: 1.72289in
+   :width: 75%
 
 -  `Install Docker Desktop on
       Windows <https://docs.docker.com/desktop/setup/install/windows-install>`__
 
 .. image:: media/image4.png
-   :width: 3.25in
-   :height: 1.72289in
+   :width: 75%
 
 -  `Install Docker Desktop for
       Linux <https://docs.docker.com/desktop/setup/install/linux/>`__
@@ -174,8 +172,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image24.png
-      :width: 10.55055in
-      :height: 6.95161in
+      :width: 75%
 
 -  *Step 5:* Now, we will give security permission to Docker to interact
       with the localhost of the Host OS (your machine where Docker is
@@ -201,8 +198,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image25.png
-      :width: 4.96008in
-      :height: 1.184in
+      :width: 75%
 
 -  | Go to XQuartz preferences > Security and check these options
       | ​​\ |image6|
@@ -244,8 +240,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image19.png
-      :width: 9.51042in
-      :height: 6.3125in
+      :width: 75%
 
 -  Note: this created a container named
       “iic-osic-tools_chipathon_xvnc_uid\_…” and mapped a folder
@@ -259,8 +254,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image21.png
-      :width: 11.66666in
-      :height: 6.7784in
+      :width: 75%
 
 -  You can now access the Desktop Environment of the OS running in the
       container through your browser
@@ -270,12 +264,10 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image18.png
-      :width: 13in
-      :height: 2.22988in
+      :width: 75%
 
    .. image:: media/image17.png
-      :width: 13in
-      :height: 7.53467in
+      :width: 75%
 
 -  On Windows:
 
@@ -313,8 +305,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image26.png
-      :width: 13in
-      :height: 7.56656in
+      :width: 75%
 
 -  Now you can open graphical applications directly in your native
       display, for example: Let's try to open Klayout by typing
@@ -323,8 +314,7 @@ using. Please follow the specific instructions for your platform:
 ..
 
    .. image:: media/image22.png
-      :width: 13in
-      :height: 6.78423in
+      :width: 75%
 
 The difference with VNC and X11 is how Docker Container uses the
 display. VNC starts a remote display protocol to show the desktop
@@ -338,29 +328,20 @@ Container. For details, see the JKU
 repo.`**
 
 .. |image1| image:: media/image5.png
-   :width: 3.25in
-   :height: 2.0753in
+   :width: 75%
 .. |image2| image:: media/image30.png
-   :width: 3.25in
-   :height: 2in
+   :width: 75%
 .. |image3| image:: media/image29.png
-   :width: 3.25in
-   :height: 2.0625in
+   :width: 75%
 .. |image4| image:: media/image20.jpg
-   :width: 6.5in
-   :height: 3.67708in
+   :width: 75%
 .. |image5| image:: media/image2.png
-   :width: 3.25in
-   :height: 2.03615in
+   :width: 75%
 .. |image6| image:: media/image1.png
-   :width: 4.21875in
-   :height: 2.06866in
+   :width: 75%
 .. |image7| image:: media/image28.png
-   :width: 4.56646in
-   :height: 4.25365in
+   :width: 75%
 .. |image8| image:: media/image27.png
-   :width: 4.56646in
-   :height: 4.25782in
+   :width: 75%
 .. |image9| image:: media/image23.png
-   :width: 4.36642in
-   :height: 4.25366in
+   :width: 75%
