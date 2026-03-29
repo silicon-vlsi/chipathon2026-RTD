@@ -5,7 +5,4 @@ EDA Tools
    :maxdepth: 2 
 
    cad-klayout
-   cad-klayout-fillGF180mcuD
-   cad-klayout-delzero
-   cad-klayout-analogIHP
     
