@@ -7,7 +7,7 @@ LVS
 
 
 Install netgen:
-^^^^^^^^^^^^^^^
+--------------
 
 cd into the dir you clone all your OS tools into and type the following
 command:
@@ -34,7 +34,7 @@ http://opencircuitdesign.com/netgen/index.html
 https://web02.gonzaga.edu/faculty/talarico/vlsi/netgen.html
 
 Generate netlist:
-^^^^^^^^^^^^^^^^^
+----------------
 
 In xschem, descend into the sub-block you are LVS’ing against.
 
@@ -50,7 +50,7 @@ Don’t however select it for your top level tb schematic, otherwise
 simulation will not run.
 
 Run LVS using klayout (KLVS):
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------
 
 This assumes you already have klayout installed.
 
@@ -87,7 +87,7 @@ with KLVS is extremely difficult (no meaningfull statements produced!).
 In fact, this is one of the main drawbacks of KLVS in my opinion.
 
 Run LVS using netgen:
-^^^^^^^^^^^^^^^^^^^^^
+----------------
 
 In order to compare the layout with the schematic, netgen first needs a
 spice representation of the .gds layout file. KLVS is perfect for
@@ -116,7 +116,7 @@ read and hence debug if required.
    :width: 75%
 
 Conclusions:
-^^^^^^^^^^^^^^^
+----------------
 
 KLVS is slower than netgen and extremely difficult to debug. In
 addition, it has been found to not detect differences in netnames (see
@@ -134,7 +134,7 @@ challenging so will update the doc with further insights once I become
 more experienced in LVS debug using these tools.
 
 Appendix #1: LVS investigations using klayout (KLVS) and netgen:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------
 
 *Following are 6 examples testing LVS using klayout / netgen on a simple
 inverter*

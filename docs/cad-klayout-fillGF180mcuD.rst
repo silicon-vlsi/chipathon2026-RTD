@@ -1,4 +1,4 @@
-Create filling areas for GF180mcuD
+GF180mcuD Fill
 ==================================
 
 2025/09/29
@@ -49,7 +49,7 @@ Create filling areas for GF180mcuD
    11 <#send-for-verification-to-commercial-tools-1>`__
 
 Context 
-^^^^^^^
+-------
 
 When running the DRC checks it is usual that after solving most of the
 errors it is pending the density violations.
@@ -67,7 +67,7 @@ In this case, we will use the Fill tool available in KLayout. This
 procedure was initially shown by amro_tork@mabrains.com
 
 Preliminary steps
-^^^^^^^^^^^^^^^^^
+-------
 
 Check the Design Reference Manual (DRM)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -110,7 +110,7 @@ Can download from here:
 `fill_large_metal.gds <https://drive.google.com/file/d/1oZdEmnh9mqETDT4oB6nTz4vGvkwie3uh/view?usp=sharing>`__
 
 Place the cell into the design
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 .. image:: media/cad/klayout/fillGF180/image4.png
    :width: 75%
@@ -119,7 +119,7 @@ We can place it anywhere, however, it might be preferable in a corner,
 so later we can delete it.
 
 Open the fill tool and configure accordingly
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 a. Go to Edit → Utilites → Fill Tool
 
@@ -179,7 +179,7 @@ KLayout, so please be careful, and also save your layout before running.
 After the process finishes, the result should be similar to: |image5|
 
 Run the density check
-~~~~~~~~~~~~~~~~~~~~~
+-------
 
 We might need to use the latest version from the tool that was delivered
 by amro_tork@mabrains.com:
@@ -217,7 +217,7 @@ gone.
    :width: 75%
 
 Send for verification to commercial tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 We will need to run with commercial tools because the rules are not
 implemented in KLayout yet. For this step, `Anhang
@@ -229,7 +229,7 @@ Procedure to fill poly + comp (WIP)
 .. _create-a-base-cell-using-the-guidelines-from-drm-1:
 
 Create a base cell using the guidelines from DRM
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 The design manual has several rules, however, some of the most relevant
 are that the COMP size is 5.6umx5.6um and on top of it we can have the
@@ -244,7 +244,7 @@ Can download from here:
 .. _place-the-cell-into-the-design-1:
 
 Place the cell into the design
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 .. image:: media/cad/klayout/fillGF180/image3.png
    :width: 75%
@@ -252,7 +252,7 @@ Place the cell into the design
 .. _open-the-fill-tool-and-configure-accordingly-1:
 
 Open the fill tool and configure accordingly
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 In this case we can reuse several of the values we have applied in metal
 filling. The difference might be the distance to border fill, in this
@@ -305,7 +305,7 @@ The result might be similar to the following:
 .. _run-the-density-check-1:
 
 Run the density check
-~~~~~~~~~~~~~~~~~~~~~
+-------
 
 We can reuse the same command as previously:
 
@@ -320,7 +320,7 @@ Poly2.
 .. _send-for-verification-to-commercial-tools-1:
 
 Send for verification to commercial tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 Right now the only way we have to check if that worked or not is using
 commercial tools.
