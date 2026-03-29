@@ -6,5 +6,7 @@ EDA Tools
 
    cad-klayout
    cad-klayout-fillGF180mcuD
+   cad-klayout-delzero
+   
 
 
