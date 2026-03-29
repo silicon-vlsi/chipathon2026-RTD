@@ -1,8 +1,8 @@
 EDA Tools
 ===========
 
-.. autosummary::
-   :toctree: generated
+.. toctree::
+   :maxdepth: 2 
 
    cad-klayout
 
