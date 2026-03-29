@@ -1,5 +1,5 @@
-Delete zero-area shapes from GDS using Klayout
-==============================================
+Delete Zero-area Shapes 
+=======================
 
 2025/12/10
 
